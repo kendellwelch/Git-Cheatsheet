@@ -1,5 +1,15 @@
 Hello Git and Github
 
-Test 2: Git commands
+Connecting and pushing to github:
 git remote add origin https://github.com/Cynddelw/git_practice2.git
 git push -u origin master
+
+Git Commands:
+
+    git init creates a new Git repository
+    git status inspects the contents of the working directory and staging area
+    git add adds files from the working directory to the staging area
+    git diff shows the difference between the working directory and the staging area
+    git commit permanently stores file changes from the staging area in the repository
+    git log shows a list of all previous commits
+
