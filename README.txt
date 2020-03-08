@@ -1,8 +1,12 @@
 Hello Git and Github
 
-Connecting and pushing to github:
-git remote add origin https://github.com/Cynddelw/git_practice2.git
-git push -u origin master
+Git Workflow:
+
+    1-Fetch and merge changes from the remote
+    2-Create a branch to work on a new project feature
+    3-Develop the feature on your branch and commit your work
+    4-Fetch and merge from the remote again (in case new commits were made while you were working)
+    5-Push your branch up to the remote for review
 
 Git Commands:
 
@@ -28,10 +32,14 @@ Git Branching:
     git merge branch_name: Used to join file changes from one branch to another.
     git branch -d branch_name: Deletes the branch specified.
 
-Git Workflow:
+Git Teamwork:
 
-    1-Fetch and merge changes from the remote
-    2-Create a branch to work on a new project feature
-    3-Develop the feature on your branch and commit your work
-    4-Fetch and merge from the remote again (in case new commits were made while you were working)
-    5-Push your branch up to the remote for review
+    git clone: Creates a local copy of a remote.
+    git remote -v: Lists a Git project’s remotes.
+    git fetch: Fetches work from the remote into the local copy.
+    git merge origin/master: Merges origin/master into your local branch.
+    git push origin <branch_name>: Pushes a local branch to the origin remote.
+
+Connecting and pushing to github:
+git remote add origin https://github.com/Cynddelw/Git_Cheatsheet.git
+git push -u origin master
